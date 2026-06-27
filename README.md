@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="public/logo.png" alt="Lead The Dragon" width="80" />
+<img src="src/assets/Lead The Dragon Transparent.png" alt="Lead The Dragon" width="80" />
 
-# 🐉 Lead The Dragon — Fanpage
+# Lead The Dragon - Fanpage
 
 **Site de fã não oficial do jogo indie Lead The Dragon, desenvolvido por 3 Lapz.**  
 Uma landing page imersiva construída com React, TypeScript e Framer Motion.
@@ -12,6 +12,9 @@ Uma landing page imersiva construída com React, TypeScript e Framer Motion.
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-06B6D4?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
 
+[![Netlify](https://img.shields.io/badge/Deploy-Netlify-00C7B7?style=flat-square&logo=netlify)](https://lead-the-dragon.netlify.app/)
+
+# [🌐 Acessar o Site](https://lead-the-dragon.netlify.app/)
 [🎮 Ver o Jogo na Steam](https://store.steampowered.com/app/3836490/Lead_The_Dragon/) · [💬 Discord Oficial](https://discord.gg/3YbRzPNcRa) · [🐦 Twitter](https://x.com/LeadTheDragon)
 
 </div>
@@ -113,9 +116,3 @@ Nenhum conteúdo deste site é afiliado ou endossado oficialmente pelo desenvolv
 - Desenvolvido solo por 3 Lapz
 
 [➡️ Adicionar na Wishlist da Steam](https://store.steampowered.com/app/3836490/Lead_The_Dragon/)
-
----
-
-<div align="center">
-  Feito com 💜 por <a href="https://github.com/Guilhermesttt">Guilhermesttt</a> · Fã do projeto Lead The Dragon
-</div>
