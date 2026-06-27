@@ -18,12 +18,6 @@ Uma landing page imersiva construída com React, TypeScript e Framer Motion.
 
 ---
 
-## 🖼️ Preview
-
-> *Screenshot do projeto aqui — adicione uma imagem da fanpage quando hospedar*
-
----
-
 ## 📖 Sobre o Projeto
 
 Este é um site de fã criado para ajudar a divulgar **Lead The Dragon**, um jogo indie de corrida e drift desenvolvido de forma independente pela **3 Lapz**, com lançamento previsto para **Q4 2026**.
