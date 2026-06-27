@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Barlow:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Impact', sans-serif;
+  --font-body: 'Barlow', sans-serif;
+
+  /* Primárias */
+  --color-pink-neon: #FF9FFC;
+  --color-electric-purple: #5227FF;
+  --color-bg-main: #07060F;
+  --color-bg-surface: #0E0C1C;
+  --color-text-main: #F2F0FF;
+  --color-text-muted: #6B648E;
+
+  /* Extraídas do jogo */
+  --color-police-red: #EF4444;
+  --color-flame-orange: #F97316;
+  --color-headlight-yellow: #FACC15;
+  --color-purple-mid: #C084FC;
+  --color-deep-navy: #1E1B3A;
+  --color-logo-white: #FFFFFF;
+
+  --color-subtle-border: rgba(255, 159, 252, 0.2);
+  --radius-DEFAULT: 9999px;
+}
+
+html {
+  scroll-padding-top: 110px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-main);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 159, 252, 0.35);
+  border-radius: 9999px;
+  border: 2px solid var(--color-bg-main);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 159, 252, 0.6);
+}
+
+body {
+  background-color: var(--color-bg-main);
+  color: var(--color-text-main);
+  font-family: var(--font-body);
+}
+
+.liquid-glass {
+  background: rgba(14, 12, 28, 0.65);
+  background-blend-mode: luminosity;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 159, 252, 0.18);
+  box-shadow: inset 0 1px 1px rgba(255, 159, 252, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.liquid-glass-strong {
+  background: rgba(14, 12, 28, 0.80);
+  background-blend-mode: luminosity;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  border: 1px solid rgba(255, 159, 252, 0.15);
+  box-shadow:
+    4px 4px 12px rgba(7, 6, 15, 0.5),
+    inset 0 1px 1px rgba(255, 159, 252, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.neon-border {
+  border-color: rgba(255, 159, 252, 0.5) !important;
+  box-shadow:
+    0 0 8px rgba(255, 159, 252, 0.3),
+    inset 0 0 8px rgba(255, 159, 252, 0.05);
+}
+
+.neon-border-hover {
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.neon-border-hover:hover {
+  border-color: rgba(255, 159, 252, 0.5) !important;
+  box-shadow:
+    0 0 8px rgba(255, 159, 252, 0.3),
+    inset 0 0 8px rgba(255, 159, 252, 0.05);
+}
+
+.neon-glow-pink {
+  box-shadow:
+    0 0 16px rgba(255, 159, 252, 0.45),
+    0 0 32px rgba(255, 159, 252, 0.2);
+}
+
+.music-volume-slider {
+  height: 4px;
+  cursor: pointer;
+  appearance: none;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.music-volume-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  background: var(--color-pink-neon);
+  box-shadow: 0 0 8px rgba(255, 159, 252, 0.6);
+  cursor: pointer;
+}
+
+.music-volume-slider::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  background: var(--color-pink-neon);
+  border: 0;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes shine {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes musicPulse {
+  0%, 100% { box-shadow: 0 0 12px rgba(255, 159, 252, 0.4); }
+  50% { box-shadow: 0 0 20px rgba(255, 159, 252, 0.7); }
+}
+
+.music-icon-pulse {
+  animation: musicPulse 2s ease-in-out infinite;
+}
