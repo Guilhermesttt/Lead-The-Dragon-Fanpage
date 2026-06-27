@@ -67,36 +67,6 @@ O objetivo da fanpage é engajar a comunidade, apresentar as mecânicas do jogo 
 
 ---
 
-## 🚀 Rodando Localmente
-
-```bash
-# Clone o repositório
-git clone https://github.com/Guilhermesttt/Lead-The-Dragon-Fanpage.git
-
-# Entre na pasta
-cd Lead-The-Dragon-Fanpage
-
-# Instale as dependências
-npm install
-
-# Rode o servidor de desenvolvimento
-npm run dev
-```
-
-Acesse em `http://localhost:5173`
-
----
-
-## 📦 Build para Produção
-
-```bash
-npm run build
-```
-
-Os arquivos de saída ficam na pasta `/dist`.
-
----
-
 ## ⚠️ Aviso Legal
 
 Este é um projeto **não oficial**, criado por um fã com o objetivo de divulgar o jogo.  
